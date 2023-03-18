@@ -21,9 +21,6 @@ static DWORD InternalEsp_print_address = 0x46E640;
 static const DWORD  TeamMatch = 0x7;
 static const DWORD GameNotStart = 0x0;
 
-static unsigned char ammo[2] = { 0xFF,0x08 };
-static unsigned char shootPitchUp[5] = { 0xF3,0x0F,0x11,0x50,0x40 };
-
 static DWORD headx_offset = 0x4;
 static DWORD heady_offset = 0x8;
 static DWORD headz_offset = 0xC;
