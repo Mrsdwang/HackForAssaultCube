@@ -33,7 +33,6 @@ public:
     float closest_pit = 0.0f;
 
     bool WorldToScreen(vec3d, const std::shared_ptr<float>&, int, int);
-    //bool WorldToScreen(vec3d, float[16], int, int);
     float GetDistance_3d(vec3d , vec3d );
     float GetDistance_2d(float,float );
 
